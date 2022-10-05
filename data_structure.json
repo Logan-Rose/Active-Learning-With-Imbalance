@@ -1,14 +1,12 @@
 {
-  "set1": {
-    "name": "imdb",
+  "imdb": {
     "t1": "imdb_score",
     "t2": "content_rating",
     "t3": "content_rating",
     "location": "./Datasets/movie_metadata.csv",
     "dummies": ["color","language","country"]
   },
-  "set2": {
-    "name": "mushroom",
+  "mushroom": {
     "t1": "Class",
     "t2": "population",
     "t3": "habitat",
@@ -22,70 +20,61 @@
     "ring-type", "spore-print-color"]
 
   },
-  "set3": {
-    "name": "census",
+  "census": {
     "t1": "income",
     "t2": "marital-status",
     "t3": "workclass",
     "location":"./Datasets/census.csv",
     "dummies": ["education","occupation","relationship","race","sex","native-country"]
   },
-  "set4": {
-    "name": "bank",
+  "bank": {
     "t1": "y",
     "t2": "loan",
     "t3": "housing",
     "location":"./Datasets/bank-additional.csv",
     "dummies": ["job","education","default","contact","month","day_of_week","poutcome","marital"]
   },
-  "set5": {
-    "name": "intention",
+  "intention": {
     "t1": "Revenue",
     "t2": "VisitorType",
     "t3": "SpecialDay",
     "location":"./Datasets/online_shoppers_intention.csv",
     "dummies": ["Month","Weekend"]
   },
-  "set6": {
-    "name": "anuran",
+  "anuran": {
     "t1": "Family",
     "t2": "Genus",
     "t3": "Species",
     "location":"./Datasets/Frogs_MFCCs.csv",
     "dummies": []
   },
-  "set7": {
-    "name": "telco",
+  "telco": {
     "t1": "Churn",
     "t2": "Contract",
     "t3": "PaymentMethod",
     "location":"./Datasets/telco.csv",
     "dummies": ["gender","Partner","Dependents","PhoneService","MultipleLines","InternetService","OnlineSecurity","OnlineBackup","DeviceProtection","TechSupport","StreamingTV","StreamingMovies","PaperlessBilling"]
   },
-  "set8": {
-    "name": "paris",
+  "paris": {
     "t1": "category",
     "t2": "isNewBuilt",
     "t3": "hasStorageRoom",
     "location":"./Datasets/ParisHousingClass.csv",
     "dummies": []
   },
-  "set9": {
-    "name": "smoking",
+  "smoking": {
     "t1": "smoking",
     "t2": "tartar",
     "t3": "dental caries",
     "location":"./Datasets/smoking.csv",
     "dummies": ["gender"]
   },
-  "set10": {
-    "name": "flight",
+  "flight": {
     "t1": "satisfaction",
     "t2": "Customer Type",
     "t3": "Class",
     "location":"./Datasets/flight.csv",
     "dummies": ["Gender","Type of Travel"]
   }
-
-
+  
 }
