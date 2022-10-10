@@ -1,15 +1,15 @@
 {
   "imdb": {
-    "t1": "imdb_score",
-    "t2": "content_rating",
-    "t3": "content_rating",
+    "target1": "imdb_score",
+    "target2": "content_rating",
+    "target3": "content_rating",
     "location": "./Datasets/movie_metadata.csv",
     "dummies": ["color","language","country"]
   },
   "mushroom": {
-    "t1": "Class",
-    "t2": "population",
-    "t3": "habitat",
+    "target1": "Class",
+    "target2": "population",
+    "target3": "habitat",
     "location":"./Datasets/mushroom.csv",
     "dummies":[
     "cap-shape", "cap-surface", "cap-color", "bruises", "odor",
@@ -21,58 +21,58 @@
 
   },
   "census": {
-    "t1": "income",
-    "t2": "marital-status",
-    "t3": "workclass",
+    "target1": "income",
+    "target2": "marital-status",
+    "target3": "workclass",
     "location":"./Datasets/census.csv",
     "dummies": ["education","occupation","relationship","race","sex","native-country"]
   },
   "bank": {
-    "t1": "y",
-    "t2": "loan",
-    "t3": "housing",
+    "target1": "y",
+    "target2": "loan",
+    "target3": "housing",
     "location":"./Datasets/bank-additional.csv",
     "dummies": ["job","education","default","contact","month","day_of_week","poutcome","marital"]
   },
   "intention": {
-    "t1": "Revenue",
-    "t2": "VisitorType",
-    "t3": "SpecialDay",
+    "target1": "Revenue",
+    "target2": "VisitorType",
+    "target3": "SpecialDay",
     "location":"./Datasets/online_shoppers_intention.csv",
     "dummies": ["Month","Weekend"]
   },
   "anuran": {
-    "t1": "Family",
-    "t2": "Genus",
-    "t3": "Species",
+    "target1": "Family",
+    "target2": "Genus",
+    "target3": "Species",
     "location":"./Datasets/Frogs_MFCCs.csv",
     "dummies": []
   },
   "telco": {
-    "t1": "Churn",
-    "t2": "Contract",
-    "t3": "PaymentMethod",
+    "target1": "Churn",
+    "target2": "Contract",
+    "target3": "PaymentMethod",
     "location":"./Datasets/telco.csv",
     "dummies": ["gender","Partner","Dependents","PhoneService","MultipleLines","InternetService","OnlineSecurity","OnlineBackup","DeviceProtection","TechSupport","StreamingTV","StreamingMovies","PaperlessBilling"]
   },
   "paris": {
-    "t1": "category",
-    "t2": "isNewBuilt",
-    "t3": "hasStorageRoom",
+    "target1": "category",
+    "target2": "isNewBuilt",
+    "target3": "hasStorageRoom",
     "location":"./Datasets/ParisHousingClass.csv",
     "dummies": []
   },
   "smoking": {
-    "t1": "smoking",
-    "t2": "tartar",
-    "t3": "dental caries",
+    "target1": "smoking",
+    "target2": "tartar",
+    "target3": "dental caries",
     "location":"./Datasets/smoking.csv",
     "dummies": ["gender"]
   },
   "flight": {
-    "t1": "satisfaction",
-    "t2": "Customer Type",
-    "t3": "Class",
+    "target1": "satisfaction",
+    "target2": "Customer Type",
+    "target3": "Class",
     "location":"./Datasets/flight.csv",
     "dummies": ["Gender","Type of Travel"]
   }
