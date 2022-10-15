@@ -2,7 +2,7 @@
   "imdb": {
     "target1": "imdb_score",
     "target2": "content_rating",
-    "target3": "content_rating",
+    "target3": "gross",
     "location": "./Datasets/movie_metadata.csv",
     "dummies": ["color","language","country"]
   },
