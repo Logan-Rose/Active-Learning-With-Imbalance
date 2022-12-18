@@ -1,0 +1,31 @@
+,dataset,Target,value,chunk,name
+0,mushroom,target1,0.0,0,Class
+1,anuran,target1,0.0073662265462126,0,Family
+2,anuran,target2,0.0101459346768589,0,Genus
+3,anuran,target3,0.0118137595552466,0,Species
+4,bank,target1,0.1265372168284789,0,y
+5,intention,target1,0.173045199604091,0,Revenue
+6,intention,target3,0.1859947212141207,0,SpecialDay
+7,imdb,target1,0.1878512175541878,0,imdb_score
+8,flight,target2,0.1945291805354977,0,Customer Type
+9,intention,target2,0.207192345760475,0,VisitorType
+10,paris,target1,0.2231999999999999,1,category
+11,imdb,target3,0.2435108375702435,1,gross
+12,census,target1,0.2642386157454529,1,income
+13,flight,target1,0.2700348297512491,1,satisfaction
+14,bank,target2,0.2702265372168284,1,loan
+15,telco,target1,0.2861626248216833,1,Churn
+16,smoking,target3,0.3284252109894057,1,dental caries
+17,mushroom,target3,0.3465627214741318,1,habitat
+18,smoking,target1,0.3479978452145807,1,smoking
+19,telco,target2,0.3563480741797432,1,Contract
+20,flight,target3,0.3633260481747202,2,Class
+21,census,target3,0.4159844227109793,2,workclass
+22,smoking,target2,0.4846247082061411,2,tartar
+23,paris,target2,0.4962999999999999,2,isNewBuilt
+24,paris,target3,0.4988,2,hasStorageRoom
+25,bank,target3,0.5029126213592233,2,housing
+26,census,target2,0.5098464397928928,2,marital-status
+27,imdb,target2,0.5675675675675675,2,content_rating
+28,telco,target3,0.6370898716119828,2,PaymentMethod
+29,mushroom,target2,0.7863217576187101,2,population
